@@ -3,15 +3,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 import './Header.css';
 
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const Header = () => {
   return (
