@@ -1,0 +1,25 @@
+{
+  "name": "fantasy-shop",
+  "version": "1.0.0",
+  "description": "Mern Fantasy Shop Application",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "react-bootstrap": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharifh530/Fantasy-Shop.git"
+  },
+  "author": "Sazzad hossain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharifh530/Fantasy-Shop/issues"
+  },
+  "homepage": "https://github.com/sharifh530/Fantasy-Shop#readme"
+}
