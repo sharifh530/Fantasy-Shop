@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import HomeScreen from './screens/HomeScreen/HomeScreen';
-import ProductScreen from './screens/ProductScreen/ProductScreen';
-import { Container } from 'react-bootstrap';
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import HomeScreen from "./screens/HomeScreen/HomeScreen";
+import ProductScreen from "./screens/ProductScreen/ProductScreen";
+import CartScreen from "./screens/CartScreen/CartScreen";
+import { Container } from "react-bootstrap";
 
 const App = () => {
   return (
@@ -15,8 +16,9 @@ const App = () => {
         <Header />
         <main>
           <Container>
-            <Route path='/' exact component={HomeScreen} />
-            <Route path='/product/:id' component={ProductScreen} />
+            <Route path="/" exact component={HomeScreen} />
+            <Route path="/product/:id" component={ProductScreen} />
+            <Route path="/cart/:id?" component={CartScreen} />
           </Container>
         </main>
         <Footer />

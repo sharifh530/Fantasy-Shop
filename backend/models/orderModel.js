@@ -28,7 +28,7 @@ const orderSchema = mongoose.Schema(
         product: {
           type: mongoose.Schema.Types.ObjectId,
           required: true,
-          ref: "Product",
+          ref: "BackupProduct",
         },
       },
     ],
@@ -102,6 +102,6 @@ const orderSchema = mongoose.Schema(
   }
 );
 
-const Order = mongoose.model("Order", userSchema);
+const Order = mongoose.model("Order", orderSchema);
 
 export default Order;
